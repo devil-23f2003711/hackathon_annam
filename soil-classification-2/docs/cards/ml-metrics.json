@@ -1,0 +1,23 @@
+{
+  "competition": "Soil Classification Part 2 (2025)",
+  "model": "ResNet18",
+  "metrics": {
+    "f1_score": 1.0,
+    "validation_accuracy": 1.0,
+    "leaderboard_rank": 1
+  },
+  "training_details": {
+    "epochs": 10,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "BCEWithLogitsLoss"
+  },
+  "dataset": {
+    "total_images": 3222,
+    "training_images": 2577,
+    "validation_images": 645,
+    "soil_images": 1622,
+    "non_soil_images": 1600
+  }
+}
