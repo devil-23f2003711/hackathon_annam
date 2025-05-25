@@ -30,14 +30,22 @@ This repository contains all code, data processing scripts, notebooks, and suppo
 ## 📌 Challenges Overview
 
 ### 🔹 Challenge 1 – `soil-classification-1`
-- Aimed at building a baseline model for soil type prediction.
-- Includes one primary notebook: `soil-classification-1.ipynb`
-- Architecture diagram and references provided under `docs/`.
+
+- **Task:** Multi-class classification of soil images  
+- **Goal:** Predict the soil type as one of the following:
+  - Alluvial soil  
+  - Black Soil  
+  - Clay soil  
+  - Red soil  
+- **Objective:** Build a strong baseline model for soil type prediction
+
+---
 
 ### 🔹 Challenge 2 – `soil-classification-2`
-- Builds upon Challenge 1 with extended objectives or new datasets.
-- Primary notebook: `soil-classification-2.ipynb`
-- Same structured support as Challenge 1.
+
+- **Task:** Binary classification of images  
+- **Goal:** Determine whether an image is a **soil image or not**  
+- **Objective:** Train a model to distinguish soil images from non-soil images
 
 ---
 
