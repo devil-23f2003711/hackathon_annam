@@ -88,7 +88,7 @@ pip install -r requirements.txt
 Ensure you have a Kaggle account and API token.
 
 For soil-classification-1:
-- Place your `kaggle.json` file in the `hackathon_annam/soil-classification-1/data` directory.
+- Place your `kaggle.json` file in the `soil-classification-1/data` directory.
 ```bash
 cd soil-classification-1/data
 chmod +x download.sh
@@ -96,7 +96,7 @@ chmod +x download.sh
 ```
 
 For soil-classification-2:
-- Place your `kaggle.json` file in the `hackathon_annam/soil-classification-2/data` directory.
+- Place your `kaggle.json` file in the `soil-classification-2/data` directory.
 ```bash
 cd soil-classification-2/data
 chmod +x download.sh
