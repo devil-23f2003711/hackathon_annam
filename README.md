@@ -70,7 +70,7 @@ For Windows:
 venv\\Scripts\\activate
 ```
 
-### 4. Install Required Backend Package Dependencies
+### 4. Install Required Package Dependencies
 ```bash
 pip install -r requirements.txt
 ```
