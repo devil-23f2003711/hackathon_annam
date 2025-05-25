@@ -43,11 +43,36 @@ This repository contains all code, data processing scripts, notebooks, and suppo
 
 ## 🛠️ Installation
 
-To set up the environment:
-
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/hackathon_annam.git
+git clone https://github.com/devil-23f2003711/hackathon_annam.git
+```
+
+### 2. Change the working directory
+```bash
 cd hackathon_annam
+```
+
+### 3. Create & Activate Virtual Environment
+- #### Create Virtual Environment
+  
+```bash
+cd server
+python -m venv venv
+```
+
+- #### Activate Virtual Environment
+For Linux/macOS:
+```
+source venv/bin/activate
+```
+For Windows:
+```
+venv\\Scripts\\activate
+```
+
+### 4. Install Required Backend Package Dependencies
+```bash
 pip install -r requirements.txt
 ```
 
