@@ -4,7 +4,7 @@ Welcome to the **Soil Classification Hackathon Repository** — a two-part machi
 
 This repository contains all code, data processing scripts, notebooks, and supporting documentation needed to explore and solve both classification tasks.
 
-![Banner](https://github.com/Yadav-Aayansh/Assets/hackathon_annam/blob/main/Greenery-of-agriculture-land.jpg)
+![Banner](https://github.com/Yadav-Aayansh/Assets/blob/main/hackathon_annam/Greenery-of-agriculture-land.jpg)
 
 ---
 
