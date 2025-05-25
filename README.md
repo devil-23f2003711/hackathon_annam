@@ -121,40 +121,16 @@ jupyter notebook
 
 ---
 
-## 🧩 Dependencies
-
-See `requirements.txt` for a full list. Typical dependencies include:
-
-- `numpy`
-- `pandas`
-- `scikit-learn`
-- `matplotlib`
-- `seaborn`
-- `xgboost` or `lightgbm` (if applicable)
-
----
-
 ## 📊 Architecture
 
 Each challenge includes a system architecture diagram (`docs/architecture.png`) to illustrate the pipeline flow from data ingestion to prediction output.
 
 ---
 
-## 🤝 Contribution Guidelines
-
-We welcome contributions! To contribute:
-
-1. Fork the repo
-2. Create your feature branch: `git checkout -b feature/new-feature`
-3. Commit your changes: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature/new-feature`
-5. Submit a pull request
-
----
 
 ## 🧠 Authors & Credits
 
-This project was developed as part of the **Annam Hackathon Initiative**. Thanks to the organizers and dataset providers for the opportunity.
+This project was developed as part of the **Annam.AI Hackathon**. Thanks to the organizers and dataset providers for the opportunity.
 
 ---
 
