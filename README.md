@@ -1,88 +1,118 @@
+# 🌱 Soil Classification Hackathon
 
+Welcome to the **Soil Classification Hackathon Repository** — a two-part machine learning challenge focused on predicting soil types using structured data and AI modeling techniques.
 
+This repository contains all code, data processing scripts, notebooks, and supporting documentation needed to explore and solve both classification tasks.
 
-## Project 1: `soil-classification-1`
+---
 
-### Overview
+## 📁 Directory Structure
 
-This project focuses on soil classification using the dataset obtained from a Kaggle competition.
+```
+.
+├── soil-classification-1/         # Challenge 1: Soil Classification - Part 1
+│   ├── notebooks/                 # Jupyter notebook for data analysis & modeling
+│   ├── docs/                      # Architecture diagram and related materials
+│   └── data/                      # Script to download dataset
+│
+├── soil-classification-2/         # Challenge 2: Soil Classification - Part 2
+│   ├── notebooks/                 # Jupyter notebook for continued modeling
+│   ├── docs/                      # Architecture and reference cards
+│   └── data/                      # Script to download dataset
+│
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Files ignored by Git
+└── README.md                      # Project documentation (you’re here!)
+```
 
-### Key Components
+---
 
-*   **[download.sh](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-1/data/download.sh)**: A shell script to download the dataset from Kaggle. It requires setting up Kaggle credentials.
+## 📌 Challenges Overview
 
-### Setup
+### 🔹 Challenge 1 – `soil-classification-1`
+- Aimed at building a baseline model for soil type prediction.
+- Includes one primary notebook: `soil-classification-1.ipynb`
+- Architecture diagram and references provided under `docs/`.
 
-1.  Ensure you have a Kaggle account and API token.
-2.  Place your `kaggle.json` file in the `~/.kaggle/` directory.
-3.  Run the `download.sh` script to download and extract the dataset:
+### 🔹 Challenge 2 – `soil-classification-2`
+- Builds upon Challenge 1 with extended objectives or new datasets.
+- Primary notebook: `soil-classification-2.ipynb`
+- Same structured support as Challenge 1.
 
-    ```bash
-    cd soil-classification-1/data/
-    bash download.sh
-    ```
+---
 
-## Project 2: `soil-classification-2`
+## 🛠️ Installation
 
-### Overview
+To set up the environment:
 
-This project enhances soil classification by incorporating non-soil images from CIFAR-10 and MNIST datasets. It uses a ResNet18 model for image classification.
+```bash
+git clone https://github.com/yourusername/hackathon_annam.git
+cd hackathon_annam
+pip install -r requirements.txt
+```
 
-### Key Components
+To download datasets:
 
-*   **[download.sh](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-2/data/download.sh)**: Downloads the soil classification dataset (part 2), CIFAR-10, and MNIST datasets from Kaggle.
-*   **[ml-metrics.json](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-2/docs/cards/ml-metrics.json)**: Contains evaluation metrics for the trained ResNet18 model, including F1 score and validation accuracy.
-*   **[project-card.ipynb](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-2/docs/cards/project-card.ipynb)**: Provides a high-level overview of the project, including the problem statement, data overview, methodology, and results.
-*   **[soil-classification-2.ipynb](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-2/notebooks/soil-classification-2.ipynb)**: A Jupyter notebook containing the implementation of the soil classification model using ResNet18. Includes data loading, preprocessing, model training, and prediction generation.
+```bash
+cd soil-classification-1/data && bash download.sh
+cd ../../soil-classification-2/data && bash download.sh
+```
 
-### Setup
+---
 
-1.  Set up Kaggle API credentials as described in Project 1.
-2.  Run the `download.sh` script in the `soil-classification-2/data/` directory:
+## 📒 Notebooks
 
-    ```bash
-    cd soil-classification-2/data/
-    bash download.sh
-    ```
-3.  Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+Both challenges include Jupyter notebooks that cover:
+- Data exploration
+- Preprocessing
+- Model training & evaluation
+- Performance metrics
 
-### Model Training
+Open them via:
 
-The model training is implemented in the [soil-classification-2.ipynb](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-2/notebooks/soil-classification-2.ipynb) notebook. The notebook performs the following steps:
+```bash
+jupyter notebook
+```
 
-1.  **Data Loading and Preprocessing**: Loads soil, CIFAR-10, and MNIST datasets, preprocesses images, and creates training and validation sets.
-2.  **Model Setup**: Initializes a pre-trained ResNet18 model and modifies the final layer for binary classification.
-3.  **Training Loop**: Trains the model using the training data and evaluates it on the validation set.
-4.  **Prediction Generation**: Generates predictions on the test set and saves them to a CSV file.
+---
 
-### Performance
+## 🧩 Dependencies
 
-The model achieved excellent performance, with a perfect F1 score of 1.0 and a top rank on the Kaggle leaderboard. Key metrics are detailed in [ml-metrics.json](https://github.com/devil-23f2003711/hackathon_annam/blob/main/soil-classification-2/docs/cards/ml-metrics.json).
+See `requirements.txt` for a full list. Typical dependencies include:
 
-```json
-{
-  "competition": "Soil Classification Part 2 (2025)",
-  "model": "ResNet18",
-  "metrics": {
-    "f1_score": 1.0,
-    "validation_accuracy": 1.0,
-    "leaderboard_rank": 1
-  },
-  "training_details": {
-    "epochs": 10,
-    "batch_size": 32,
-    "learning_rate": 0.0001,
-    "optimizer": "Adam",
-    "loss_function": "BCEWithLogitsLoss"
-  },
-  "dataset": {
-    "total_images": 3222,
-    "training_images": 2577,
-    "validation_images": 645,
-    "soil_images": 1622,
-    "non_soil_images": 1600
-  }
-}
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `matplotlib`
+- `seaborn`
+- `xgboost` or `lightgbm` (if applicable)
+
+---
+
+## 📊 Architecture
+
+Each challenge includes a system architecture diagram (`docs/architecture.png`) to illustrate the pipeline flow from data ingestion to prediction output.
+
+---
+
+## 🤝 Contribution Guidelines
+
+We welcome contributions! To contribute:
+
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature/new-feature`
+3. Commit your changes: `git commit -m 'Add new feature'`
+4. Push to the branch: `git push origin feature/new-feature`
+5. Submit a pull request
+
+---
+
+## 🧠 Authors & Credits
+
+This project was developed as part of the **Annam Hackathon Initiative**. Thanks to the organizers and dataset providers for the opportunity.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See `LICENSE` for more details.
