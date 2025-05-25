@@ -1,0 +1,22 @@
+{
+  "competition": "Soil Classification Part 1 (2025)",
+  "model": "EfficientNet-B0",
+  "metrics": {
+    "f1_score": 1.0,
+    "validation_accuracy": 1.0,
+    "leaderboard_rank": 42
+  },
+  "training_details": {
+    "epochs": 20,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "loss_function": "CrossEntropyLoss (with class weights)"
+  },
+  "dataset": {
+    "total_images": 1222,
+    "training_images": 998,
+    "validation_images": 224,
+    "kfold": 5
+  }
+}
