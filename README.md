@@ -57,7 +57,6 @@ cd hackathon_annam
 - #### Create Virtual Environment
   
 ```bash
-cd server
 python -m venv venv
 ```
 
