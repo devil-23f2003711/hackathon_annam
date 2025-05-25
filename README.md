@@ -119,7 +119,7 @@ Both challenges include Jupyter notebooks that cover:
 
 ---
 
-## 📊 Documentation (docs/)
+## 📊 Documentation
 
 Each challenge includes a `docs/` directory that contains supporting reference materials:
 
