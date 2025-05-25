@@ -113,11 +113,9 @@ Both challenges include Jupyter notebooks that cover:
 - Model training & evaluation
 - Performance metrics
 
-Open them via:
-
-```bash
-jupyter notebook
-```
+### Notebooks:
+- `soil-classification-1/notebooks/soil-classification-1.ipynb`
+- `soil-classification-2/notebooks/soil-classification-2.ipynb`
 
 ---
 
