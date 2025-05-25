@@ -119,11 +119,17 @@ Both challenges include Jupyter notebooks that cover:
 
 ---
 
-## 📊 Architecture
+## 📊 Documentation (docs/)
 
-Each challenge includes a system architecture diagram (`docs/architecture.png`) to illustrate the pipeline flow from data ingestion to prediction output.
+Each challenge includes a `docs/` directory that contains supporting reference materials:
 
----
+```
+docs/
+├── architecture.png # System architecture diagram
+└── cards/
+├── ml-metrics.json # Key machine learning evaluation metrics
+└── project-card.ipynb # Jupyter notebook summarizing project details
+```
 
 
 ## 🧠 Authors & Credits
