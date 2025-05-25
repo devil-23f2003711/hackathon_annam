@@ -75,11 +75,24 @@ venv\\Scripts\\activate
 pip install -r requirements.txt
 ```
 
-To download datasets:
+### 5. Downloading the datasets:
 
+Ensure you have a Kaggle account and API token.
+
+For soil-classification-1:
+Place your `kaggle.json` file in the `hackathon_annam/soil-classification-1/data` directory.
 ```bash
-cd soil-classification-1/data && bash download.sh
-cd ../../soil-classification-2/data && bash download.sh
+cd soil-classification-1/data
+chmod +x download.sh
+./download.sh
+```
+
+For soil-classification-2:
+Place your `kaggle.json` file in the `hackathon_annam/soil-classification-2/data` directory.
+```bash
+cd soil-classification-2/data
+chmod +x download.sh
+./download.sh
 ```
 
 ---
