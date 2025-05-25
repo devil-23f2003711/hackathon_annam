@@ -1,4 +1,4 @@
-# 🌱 Soil Classification Hackathon
+# 🌱 Annam.AI - Soil Classification Hackathon
 
 Welcome to the **Soil Classification Hackathon Repository** — a two-part machine learning challenge focused on predicting soil types using structured data and AI modeling techniques.
 
