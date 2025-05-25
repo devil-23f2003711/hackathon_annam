@@ -139,9 +139,9 @@ docs/
 This project was developed as part of the **Annam.AI Hackathon**. Thanks to the organizers and dataset providers for the opportunity.
 
 Team:
+- Sai Naman | 22f3000350@ds.study.iitm.ac.in
 - Aayansh Yadav | 23f2003711@ds.study.iitm.ac.in
 - Shivanshu Gupta | 22f3002985@ds.study.iitm.ac.in
-- Sai Name | 22f3000350@ds.study.iitm.ac.in
 ---
 
 ## 📜 License
